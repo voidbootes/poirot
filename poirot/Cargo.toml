@@ -1,0 +1,15 @@
+[package]
+name = "poirot"
+version = "0.0.1"
+description = "Poirot makes it easy and fast to build formative images."
+edition = "2021"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["graphic", "rasterisation", "image"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ducat = { git = 'https://github.com/voidbootes/ducat.git', branch = 'main' }
+image = { version = "0.23.6", default-features = false }
+rusttype = "0.9.2"

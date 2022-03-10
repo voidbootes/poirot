@@ -1,0 +1,13 @@
+[package]
+name = "examples"
+version = "0.0.1"
+publish = false
+edition = "2021"
+
+[dependencies]
+image = { version = "0.23.6", default-features = false }
+poirot = { path = "../poirot" }
+
+[[example]]
+name = "test"
+path = "test.rs"
